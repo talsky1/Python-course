@@ -1,3 +1,4 @@
+#06/02/2020
 
 print("Guess number game")
 
@@ -5,7 +6,7 @@ print("Guess number game")
 import random
 
 number = random.randint(0,10)
-guess = int(input("Guess a number from 0 to 10 , type your guess here : "))
+guess = int(input("Guess the number from 0 to 10 , type your guess here : "))
             
 while True:
     if guess == number:
