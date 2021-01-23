@@ -1,0 +1,12 @@
+locations = ['mexico', 'zanzibar', 'philipines', 'colombia', 'cuba']
+print(f'This is the original list: {locations}')
+print(f'Here is my sorted() list: {sorted(locations)}')
+print(f'And here again my original list: {locations}')
+locations.reverse()
+print(f"Here is my reversed list: {locations}")
+locations.reverse()
+print(f"Reversed again to get my original list: {locations}")
+locations.sort()
+print(f"Here is my alphabetic sorted list: {locations}")
+locations.sort(reverse=True)
+print(locations)
